@@ -26,7 +26,7 @@ script_dir = os.path.dirname(__file__)
 file_name = "createbucket.py"
 file_path = os.path.join(script_dir, file_name)
 
-bucketname = "furnish.tk"
+bucketname = "your bucket name"
 if os.path.exists(file_path):
     uploadfile(file_path=file_path, bucketName=bucketname)
 else:
